@@ -5,3 +5,11 @@ __pycache__
 .idea
 .vscode
 tests/
+
+# Игнорируем все содержимое в public, но сохраняем структуру папок
+public/*
+!public/.gitkeep
+!public/*/
+public/*/*
+!public/*/.gitkeep
+
